@@ -1,20 +1,3 @@
-/*Algorithm: Infix to Postfix Conversion
-1. Initialize an empty stack S and an empty string postfix.
-2. Read the infix expression from left to right, character by character.
-3. For each character ch in the expression:
-	a. If ch is an operand (letter or digit), append it to postfix.
-	b. If ch is '(', push it onto the stack.
-	c. If ch is ')',
-		i. Pop and append characters from the stack to postfix until '(' is found.
-		ii. Pop the '(' from the stack but do not append it.
-	d. If ch is an operator (+, -, *, /, ^):
-		i. While the stack is not empty and the operator at the top of the stack has
-			higher or equal precedence than ch, pop from the stack and append to postfix.
-		ii. Push ch onto the stack.
-4. After reading the expression, pop any remaining operators
-	from the stack and append them to postfix.
-5. Output the postfix string.*/
-
 #include<iostream>
 using namespace std;
 
@@ -108,3 +91,19 @@ int main() {
 
     return 0;
 }
+/*Algorithm: Infix to Postfix Conversion
+1. Initialize an empty stack S and an empty string postfix.
+2. Read the infix expression from left to right, character by character.
+3. For each character ch in the expression:
+	a. If ch is an operand (letter or digit), append it to postfix.
+	b. If ch is '(', push it onto the stack.
+	c. If ch is ')',
+		i. Pop and append characters from the stack to postfix until '(' is found.
+		ii. Pop the '(' from the stack but do not append it.
+	d. If ch is an operator (+, -, *, /, ^):
+		i. While the stack is not empty and the operator at the top of the stack has
+			higher or equal precedence than ch, pop from the stack and append to postfix.
+		ii. Push ch onto the stack.
+4. After reading the expression, pop any remaining operators
+	from the stack and append them to postfix.
+5. Output the postfix string.*/
