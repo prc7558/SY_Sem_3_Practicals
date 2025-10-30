@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 #define MAX 10
 
 int adj[MAX][MAX];   // adjacency matrix
