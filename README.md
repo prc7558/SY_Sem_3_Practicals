@@ -22,16 +22,18 @@ A comprehensive collection of practical programs for Second Year (3rd Semester) 
 | `dsa_7_dfs.cpp` | Depth-First Search (DFS) graph traversal algorithm |
 | `detect_remove_loop.cpp` | Detect and remove loops in a linked list (Floyd's Cycle Detection) |
 | `minstack_getmin.cpp` | Special stack implementation with getMin() operation in O(1) time |
+| `dsa_mini_project.cpp` | **Mini Project**: Smart Multi-Elevator Scheduling System with SSTF algorithm and animated visualization |
 
 **Key Concepts Covered:**
 - Arrays and 2D Arrays
 - Sorting Algorithms (Bubble Sort, Insertion Sort)
 - Hashing Techniques
-- Linked Lists
+- Linked Lists (Custom Implementation)
 - Stack Applications
-- Queue Implementations
+- Queue Implementations (Custom Queue using Linked List)
 - Graph Traversal Algorithms
 - Advanced Data Structure Problems
+- Real-world Application: Elevator Scheduling (SSTF Algorithm)
 
 ---
 
@@ -48,6 +50,7 @@ A comprehensive collection of practical programs for Second Year (3rd Semester) 
 | `oop_7_file_op.cpp` | File input/output operations |
 | `oop_8_template.cpp` | Generic programming using Templates |
 | `oop_9_stl.cpp` | Standard Template Library (STL) containers and algorithms |
+| `oop_mini_project.cpp` | **Mini Project**: Student Result Management System with CSV parsing, file I/O, and Map-based search |
 
 **Key Concepts Covered:**
 - Classes and Objects
@@ -56,9 +59,10 @@ A comprehensive collection of practical programs for Second Year (3rd Semester) 
 - Virtual Functions and Abstract Classes
 - Operator Overloading
 - Exception Handling
-- File Handling
+- File Handling (Read/Write/Append modes)
 - Templates (Function and Class Templates)
 - STL Components (Vectors, Maps, Sets, Algorithms)
+- Real-world Application: Student Result Management with CSV integration
 
 ---
 
@@ -72,14 +76,65 @@ A comprehensive collection of practical programs for Second Year (3rd Semester) 
 | `mfg_4_combinations.cpp` | Generate and compute combinations |
 | `mfg_5_warshall.cpp` | Warshall's Algorithm for finding shortest paths (All-Pairs Shortest Path) |
 | `mfg_6_central.cpp` | Central measures and graph theory applications |
+| `mfg_7_dispersion.cpp` | Statistical measures of dispersion (Range, Variance, Standard Deviation) |
+| `mfg_8_hypothesis.cpp` | Hypothesis testing - Z-test for population mean with significance level |
 
 **Key Concepts Covered:**
 - Set Theory and Operations
 - Combinatorics (Permutations & Combinations)
 - Graph Theory
 - Shortest Path Algorithms
+- Statistical Analysis (Dispersion Measures)
+- Hypothesis Testing and Statistical Inference
 - Mathematical Problem Solving
 - Discrete Mathematics Applications
+
+---
+
+## 🌟 Featured Mini Projects
+
+The repository includes two comprehensive mini projects that demonstrate real-world applications:
+
+### 🏢 **DSA Mini Project: Smart Multi-Elevator Scheduling System**
+**File:** `dsa_mini_project.cpp`
+
+**Features:**
+- Custom Queue implementation using Linked List (no STL)
+- SSTF (Shortest Seek Time First) scheduling algorithm
+- 4 elevators managing 20 floors
+- Real-time animated visualization of elevator movement
+- Priority-based elevator selection system
+- Comprehensive statistics tracking (distance, requests, efficiency)
+- Interactive menu with multiple simulation modes
+
+**Concepts Demonstrated:**
+- Template-based custom data structures
+- Queue operations with linked lists
+- Algorithm optimization (scheduling)
+- System simulation and animation
+- Multi-object coordination
+
+---
+
+### 📚 **OOP Mini Project: Student Result Management System**
+**File:** `oop_mini_project.cpp`
+
+**Features:**
+- Complete inheritance hierarchy (Person → Student)
+- CSV file parsing for classmate data import
+- Map-based fast PRN search (O(log n))
+- File I/O with append mode (data preservation)
+- Automatic percentage and grade calculation
+- JSON export for web integration
+- Report card generation and storage
+
+**Concepts Demonstrated:**
+- Inheritance and Polymorphism
+- File Handling (Text files & CSV)
+- STL Map for efficient searching
+- Encapsulation and data abstraction
+- Real-world database operations
+- Data format conversion (JSON)
 
 ---
 
@@ -157,9 +212,13 @@ After completing these practicals, students will be able to:
 3. **Design** object-oriented solutions using C++ features
 4. **Utilize** polymorphism, inheritance, and encapsulation effectively
 5. **Solve** mathematical and combinatorial problems programmatically
-6. **Work** with file I/O and exception handling
+6. **Work** with file I/O, CSV parsing, and exception handling
 7. **Understand** graph algorithms and their applications
 8. **Use** STL containers and generic programming
+9. **Build** real-world applications combining multiple concepts
+10. **Implement** custom data structures without relying on STL
+11. **Develop** scheduling algorithms and system simulations
+12. **Create** database-like systems with efficient search mechanisms
 
 ---
 
