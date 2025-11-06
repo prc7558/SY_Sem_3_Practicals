@@ -1,6 +1,6 @@
 # SY Semester 3 Practicals
 
-A comprehensive collection of practical programs for Second Year (3rd Semester) covering **Data Structures and Algorithms (DSA)**, **Object-Oriented Programming (OOP)**, and **Mathematics for Graphing (MFG)**.
+A comprehensive collection of practical programs for Second Year (3rd Semester) covering **Data Structures and Algorithms (DSA)**, **Object-Oriented Programming (OOP)**, and **Mathematical Foundation for GenAI (MFG)**.
 
 ## 📚 Course Contents
 
@@ -66,7 +66,7 @@ A comprehensive collection of practical programs for Second Year (3rd Semester) 
 
 ---
 
-### 📊 Mathematics for Graphing (MFG)
+### 📊 Mathematical Foundation for GenAI (MFG)
 
 | Program | Description |
 |---------|-------------|
